@@ -1,5 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
+
+/*NAV & BODY*/
 * {
   box-sizing: border-box;
 }
@@ -83,6 +85,37 @@ p {
   padding-bottom: 6px;
   font-family: "Oswald", sans-serif;
 }
+
+/*PORTFOLIO PIECES*/
+
+
+/*FOOTER*/
+section{
+	width: 100%;
+	margin: 0 0 360px 0;
+	background-color: #ececec;
+	position: fixed;
+	z-index: 2;
+	color: #1e2024;
+	padding:10px;
+	padding-bottom:80px;
+}
+
+footer{
+		width: 100%;
+		height: 360px;
+		background-color: #262932;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		color: #ef4a4a;
+		text-align: center;
+		z-index: 0;
+
+}
+
+/*FOOTER BUTTONS*/
+
 @media only screen and (max-width: 766px) {
   .main_header {
     padding-top: 25px;
@@ -194,7 +227,7 @@ nav ul a.active {
 }
 .mouse {
   display: block;
-  margin: 0 auto;
+  margin: -1em auto;
   width: 26px;
   height: 46px;
   background: rgba(255,255,255,0.5);
