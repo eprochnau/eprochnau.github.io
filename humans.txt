@@ -1,28 +1,25 @@
 # TEAM
 
-Team describes who helped make the website.
 Designer & developer: Emily Prochnau
 Site: http://emilyprochnau.ca
 GitHub: http://github.com/eprochnau
-E-mail: emily@emilyprochnau.ca
+E-mail: hello@emilyprochnau.ca
 Twitter: @emilyprochnau
+Instagram: @emilyprochnau
+Behance: http://www.behance.net/eprochnau
 Location: Ottawa, Canada
 
 ---
 
 # THANKS
 
-This is where the copyright goes for stock images, code, or things like that.
-Slideshow from Some Person <http://slideshow.com>
-Big Image © Another Person <http://geddyimages.com>
 
 ---
 
 # TECHNOLOGY
 
-This is where you write what tools you used to make this website. It's interesting to coders.
-
 - Dreamweaver
 - GitHub
 - Hover.com
 - FastMail.com
+- Codepen.io
