@@ -110,7 +110,7 @@ line-height: 3;
 	font-family: "Oswald", sans-serif;
 }
 
-/*@MEDIA ONLY*/
+/*MEDIA QUERIES*/
 @media only screen and (max-width: 47.875em) {
 	.main_header {
     padding-top: 25px;
@@ -244,9 +244,9 @@ nav ul a.active {
 	border-radius: 13px;
 	border: 2px solid #ffffff;
 	position: absolute;
-	bottom: 95px;
+	bottom: 150px;
 	position: absolute;
-	left: 51%;
+	left: 50%;
 	margin-left: -24px;
 }
 
@@ -263,6 +263,7 @@ nav ul a.active {
 	-o-animation: scroll 1s infinite both;
 	animation: scroll 1s infinite both;
 }
+
 
 @-webkit-keyframes scroll {
   0% {
