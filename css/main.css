@@ -394,9 +394,11 @@ section {
 .social {
 	height: 10rem;
 	list-style-type: none;
-	margin: 0 auto;
-	padding: 3em;
-	display: inline;
+	margin: 3em;
+	padding: 0;
+	text-align: center;
+	display: list-item;
+	
 }
 
 .social li a {
