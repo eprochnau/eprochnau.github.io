@@ -33,11 +33,18 @@ p {
 	line-height: 2;
 }
 
-.row {
+.nav-row {
 	width: 100%;  
 	margin: 0 auto;
 	position: relative;
 	padding: 0 2%;
+}
+
+.row {
+	width: 100%;  
+	margin: 0 auto;
+	position: relative;
+	padding: 0;
 }
 
 .content {
@@ -47,8 +54,8 @@ p {
 	padding: 50px 2% 50px;
 }
 
-.main_header .row .content {
-	padding: 0;
+.main_header .nav-row .content {
+	padding: 0 2%;
 }
 
 .dark {
