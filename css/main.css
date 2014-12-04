@@ -322,7 +322,7 @@ nav ul a.active {
 
 /*SMOOTH SCROLL TO TOP*/
 .scrollup {
-	color: #A10002;
+	color: #696969;
     font-size: 40px;
     text-align: center;
     line-height: 40px;
@@ -376,7 +376,7 @@ section {
 	height: 10rem;
 	list-style-type: none;
 	margin-top: 3em;
-	margin-bottom: -6em;
+	margin-bottom: -5em;
 	padding: 0;
 	text-align: center;
 	display: list-item;
@@ -393,7 +393,7 @@ section {
 	margin-right: 1rem;
 	margin-bottom: 1rem;
 	text-align: center;
-	padding-top: 17px;
+	padding-top: 19px;
 	
 	-webkit-border-radius: 40px;
 	-moz-border-radius: 40px;
