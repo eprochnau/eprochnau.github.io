@@ -247,7 +247,7 @@ nav ul a.active {
 	bottom: 150px;
 	position: absolute;
 	left: 50%;
-	margin-left: -24px;
+	margin-left: -13px;
 }
 
 .mouse span {
@@ -264,6 +264,13 @@ nav ul a.active {
 	animation: scroll 1s infinite both;
 }
 
+.scroll-down {
+	position: absolute;
+	bottom: 180px;
+	width: 100%;
+	text-align: center;
+	margin: 0;
+}
 
 @-webkit-keyframes scroll {
   0% {
@@ -401,9 +408,12 @@ section {
 	
 }
 
+.social li {
+	display: inline-block;
+}
+
 .social li a {
 	display: inline-block;
-	float: left;
 	width: 40px;
 	height: 40px;
 	margin-right: 1rem;
