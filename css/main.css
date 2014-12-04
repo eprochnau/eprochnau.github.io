@@ -357,14 +357,13 @@ nav ul a.active {
 }
 
 .fixed-footer p {
-    color: #696969;
-    font-size: 1em;
-    font-weight: 300;
+	width: 100%;
+	margin: 0 auto;
+	margin-top: -100px;
 	text-align: center;
-	margin-top: 7em;
 }
 
-/*SOCIAL MEDIA BUTTONS */
+/*SOCIAL MEDIA BUTTONS*/
 * {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
@@ -401,11 +400,11 @@ section {
 .social {
 	height: 10rem;
 	list-style-type: none;
-	margin: 3em;
+	margin-top: 3em;
+	margin-bottom: 0;
 	padding: 0;
 	text-align: center;
 	display: list-item;
-	
 }
 
 .social li {
