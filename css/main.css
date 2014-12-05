@@ -70,10 +70,10 @@ p {
 	background: #333;
 }
 
-#intro {
+#intro,
+.header-img-section {
 	position: relative;
-	background: #fff url(http://fillmurray.com/1280/850) no-repeat center center;
-	/*background-attachment: fixed;*/
+	background: transparent url("../img/mars-pano.jpg") no-repeat center top;	/*background-attachment: fixed;*/
 	background-size: cover;
 	text-align: center;
 	color: #fff;

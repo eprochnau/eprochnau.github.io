@@ -1,5 +1,14 @@
 // JavaScript Document
 
+// Header Parallax Scroll
+var $win = $(window);
+var $sunSection = $('.sun-section');
+
+$win.on('scroll', function () {
+	var scrollPos = $win.scrollTop();
+  
+$headerImgSection.css('background-position', 'center ' + scrollPos / 5 + 'px');
+
 // Sticky Navigation
 $(window).scroll(function() {
 
