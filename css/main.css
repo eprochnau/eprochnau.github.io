@@ -1,6 +1,13 @@
 @charset "UTF-8";
 /* Emily Prochnau */
 
+/*BROWSERS*/
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
 /*MAIN CONTENT STYLE*/
 * {
 	box-sizing: border-box;
@@ -424,6 +431,8 @@ section {
 	-ms-box-shadow: inset 0 0 0 3px #696969;
 	box-shadow: inset 0 0 0 3px #696969;
 	color: #696969;
+	
+	hide-text: none;
 }
 
 /*FOOTER*/
@@ -534,5 +543,21 @@ section {
 
 /*WORK*/
 .work {
-	padding: 0;
+	position: relative;
+}
+
+.work-img {
+	postion: relative;
+	margin: 0;
+}
+
+.work-caption {
+	bottom: 0;
+	padding: 0.843rem 0.8rem;
+	position: absolute;
+
+	background-color: (rgba(51,51,51,3.0)) ;
+
+	color: #8f8f8f;
+	font-family: "Oswald" serif;
 }
