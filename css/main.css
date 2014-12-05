@@ -7,6 +7,7 @@
 @-o-viewport { width: device-width; scale: 1; }
 @-webkit-viewport { width: device-width; scale: 1; }
 @viewport { width: device-width; scale: 1; }
+/*END BROWSERS*/
 
 /*MAIN CONTENT STYLE*/
 * {
@@ -123,6 +124,7 @@ line-height: 3;
 	padding-bottom: 6px;
 	font-family: "Oswald", "Helvetica", "Arial", "Verdana", sans-serif;
 }
+/*END MAIN CONTENT STYLE*/
 
 /*MEDIA QUERIES*/
 @media only screen and (max-width: 47.875em) {
@@ -161,7 +163,7 @@ line-height: 3;
 @media only screen and (max-width: 47.875em) {
   .logo {
     float: none;
-  }
+	}
 }
 
 nav {
@@ -172,7 +174,7 @@ nav {
 @media only screen and (max-width: 47.875em) {
   nav {
     width: 100%;
-  }
+	}
 }
 
 nav ul {
@@ -189,7 +191,7 @@ nav ul {
 	  float: right;
 	  text-align: right;
 	  width: 100%;
-  }
+	  }
 }
 
 nav ul li {
@@ -203,8 +205,24 @@ nav ul li {
 	  width: 100%;
 	  padding: 7px 0;
 	  margin: 0;
-  }
+	  }
 }
+
+@media only screen and (min-width: 25.00em) {
+	.content {
+	max-width: 350px;
+	width: 100%;  
+	margin: 0 auto;
+	padding: 50px 2% 50px;
+	}
+	
+	.icon-section {
+	max-width: 200px;
+	margin-bottom: 7em;
+	}
+}
+	
+/*END MEDIA QUERIES*/
 
 /*NAVIGATION*/
 nav ul a {
@@ -232,7 +250,9 @@ nav ul a.active {
 	width: 30px;
 	transition: all 200ms ease-in;
 }
+/*END NAVIGATION*/
 
+/*NAV MEDIA QUERY*/
 @media only screen and (max-width: 47.875em) {
   .mobile-toggle {
 	  display: block;
@@ -247,6 +267,7 @@ nav ul a.active {
 	background: #8f8f8f;
 	display: block;
 }
+/*END NAV MEDIA QUERY*/
 
 /*MOUSE ANIMATION*/
 .mouse {
@@ -285,7 +306,9 @@ nav ul a.active {
 	text-align: center;
 	margin: 0;
 }
+/*END MOUSE ANIMATION*/
 
+/*KEYFRAMES SCROLL*/
 @-webkit-keyframes scroll {
   0% {
 	  opacity: 1;
@@ -333,6 +356,7 @@ nav ul a.active {
 	  transform: translateY(20px);
   }
 }
+/*END KEYFRAMES SCROLL*/
 
 /*SMOOTH SCROLL TO TOP*/
 .scrollup {
@@ -351,6 +375,7 @@ nav ul a.active {
 .wrapper {
 	background-color: #E9E9E9;
 }
+/*END SMOOTH SCROLL TO TOP*/
 
 /*ICONS*/
 * {
@@ -438,7 +463,8 @@ section {
 	white-space: nowrap;
 	overflow: visible;
 	display: inline-block;
-	
+}
+/*END ICON TEXT*/
 
 /*FOOTER*/
 .content {
@@ -464,6 +490,7 @@ section {
 	margin-top: -100px;
 	text-align: center;
 }
+/*END FOOTER*/
 
 /*SOCIAL MEDIA BUTTONS*/
 * {
@@ -545,6 +572,7 @@ section {
 	box-shadow: inset 0 0 0 3px #696969;
 	color: #696969;
 }
+/*END SOCIAL MEDIA BUTTONS*/
 
 /*WORK*/
 .work {
@@ -566,3 +594,4 @@ section {
 	color: #8f8f8f;
 	font-family: "Oswald", "Helvetica", "Arial", "Verdana", sans-serif;
 }
+/*END WORK*/
