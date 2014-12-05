@@ -106,7 +106,7 @@ p {
 	color: #ffffff;
 	border-bottom: 2px solid #ffffff;
 	padding-bottom: 12px;
-line-height: 3;
+	line-height: 3;
 }
 
 .main_header {
@@ -129,7 +129,7 @@ line-height: 3;
 /*MEDIA QUERIES*/
 @media only screen and (max-width: 47.875em) {
 	.main_header {
-    padding-top: 25px;
+    	padding-top: 25px;
 	}
 }
 
@@ -161,8 +161,8 @@ line-height: 3;
 }
 
 @media only screen and (max-width: 47.875em) {
-  .logo {
-    float: none;
+	.logo {
+		float: none;
 	}
 }
 
@@ -172,8 +172,8 @@ nav {
 }
 
 @media only screen and (max-width: 47.875em) {
-  nav {
-    width: 100%;
+	nav {
+		width: 100%;
 	}
 }
 
@@ -185,13 +185,13 @@ nav ul {
 }
 
 @media only screen and (max-width: 47.875em) {
-  nav ul {
-	  padding-top: 10px;
-	  margin-bottom: 22px;
-	  float: right;
-	  text-align: right;
-	  width: 100%;
-	  }
+	nav ul {
+		padding-top: 10px;
+		margin-bottom: 22px;
+		float: right;
+		text-align: right;
+		width: 100%;
+	}
 }
 
 nav ul li {
@@ -201,26 +201,41 @@ nav ul li {
 }
 
 @media only screen and (max-width: 47.875em) {
-  nav ul li {
-	  width: 100%;
-	  padding: 7px 0;
-	  margin: 0;
-	  }
+	nav ul li {
+		width: 100%;
+		padding: 7px 0;
+		margin: 0;
+	}
 }
 
 @media only screen and (min-width: 25.00em) {
 	.content {
-	max-width: 350px;
-	width: 100%;  
-	margin: 0 auto;
-	padding: 50px 2% 50px;
+		max-width: 350px;
+		width: 100%;  
+		margin: 0 auto;
+		padding: 50px 2% 50px;
 	}
 	
 	.icon-section {
-	max-width: 200px;
-	margin-bottom: 7em;
+		max-width: 200px;
+		margin-bottom: 7em;
 	}
 }
+
+@media only screen and (min-width: 31.250em) {
+	.content {
+		max-width: 450px;
+		width: 100%;
+		margin: 0 auto;
+		padding: 50px 2% 50px;
+	}
+	
+	.icon-section {
+		max-width: 600px;
+		margin-bottom: 7em;
+	}
+}
+		
 	
 /*END MEDIA QUERIES*/
 
@@ -254,9 +269,9 @@ nav ul a.active {
 
 /*NAV MEDIA QUERY*/
 @media only screen and (max-width: 47.875em) {
-  .mobile-toggle {
-	  display: block;
-  }
+	.mobile-toggle {
+		display: block;
+	}
 }
 
 .mobile-toggle span {
@@ -310,51 +325,51 @@ nav ul a.active {
 
 /*KEYFRAMES SCROLL*/
 @-webkit-keyframes scroll {
-  0% {
-	  opacity: 1;
-	  -webkit-transform: translateY(0);
-  }
+	0% {
+		opacity: 1;
+		-webkit-transform: translateY(0);
+	}
 
-  100% {
-	  opacity: 0;
-	  -webkit-transform: translateY(20px);
-  }
+	100% {
+		opacity: 0;
+		-webkit-transform: translateY(20px);
+	}
 }
 
 @-moz-keyframes scroll {
-  0% {
-	  opacity: 1;
-	  -moz-transform: translateY(0);
-  }
+	0% {
+		opacity: 1;
+		-moz-transform: translateY(0);
+	}
 
-  100% {
-	  opacity: 0;
-	  -moz-transform: translateY(20px);
-  }
+	100% {
+		opacity: 0;
+		-moz-transform: translateY(20px);
+	}
 }
 
 @-o-keyframes scroll {
-  0% {
-	  opacity: 1;
-	  -o-transform: translateY(0);
-  }
+	0% {
+		opacity: 1;
+		-o-transform: translateY(0);
+	}
 
-  100% {
-	  opacity: 0;
-	  -o-transform: translateY(20px);
-  }
+	100% {
+		opacity: 0;
+		-o-transform: translateY(20px);
+	}
 }
 
 @keyframes scroll {
-  0% {
-	  opacity: 1;
-	  transform: translateY(0);
-  }
+	0% {
+		opacity: 1;
+		transform: translateY(0);
+	}
 
-  100% {
-	  opacity: 0;
-	  transform: translateY(20px);
-  }
+	100% {
+		opacity: 0;
+		transform: translateY(20px);
+	}
 }
 /*END KEYFRAMES SCROLL*/
 
