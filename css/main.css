@@ -621,6 +621,7 @@ section {
 }
 
 .work-img {
+	width: 250px;
 	postion: relative;
 	margin: 0;
 }
