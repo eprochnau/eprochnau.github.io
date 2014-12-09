@@ -1,24 +1,5 @@
 // JavaScript Document
 
-// Header Parallax Scroll
-var $win = $(window);
-var $sunSection = $('.sun-section');
-
-$win.on('scroll', function () {
-	var scrollPos = $win.scrollTop();
-  
-$headerImgSection.css('background-position', 'center ' + scrollPos / 5 + 'px');
-
-// Sticky Navigation
-$(window).scroll(function() {
-
-    if ($(window).scrollTop() > 100) {
-        $('.main_header').addClass('sticky');
-    } else {
-        $('.main_header').removeClass('sticky');
-    }
-});
-
 // Mobile Navigation
 $('.mobile-toggle').click(function() {
     if ($('.main_header').hasClass('open-nav')) {
