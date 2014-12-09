@@ -230,7 +230,7 @@ nav ul li {
 	
 	.work-img {
 		width: 100px;
-		postion: relative;
+		position: relative;
 	}
 	
 	.copyright {
@@ -667,7 +667,7 @@ section {
 
 .work-img {
 	width: 100%;
-	postion: relative;
+	position: relative;
 	margin: 0;
 }
 
