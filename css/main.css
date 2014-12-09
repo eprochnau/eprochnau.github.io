@@ -62,6 +62,13 @@ p {
 	padding: 50px 2% 50px;
 }
 
+.content-work h1 {
+	max-width: 940px;
+	width: 100%;  
+	margin: 0 auto;
+	padding: 50px 2% 50px;
+}	
+	
 .main_header .nav-row .content {
 	padding: 0 2%;
 }
@@ -659,7 +666,7 @@ section {
 }
 
 .work-img {
-	width: 250px;
+	width: 100%;
 	postion: relative;
 	margin: 0;
 }
