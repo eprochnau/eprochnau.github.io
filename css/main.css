@@ -80,7 +80,7 @@ p {
 #intro,
 .header-img-section {
 	position: relative;
-	background: transparent url("../img/headshot.jpg") no-repeat center top;	/*background-attachment: fixed;*/
+	background: transparent url("../img/cover.jpg") no-repeat center top;	/*background-attachment: fixed;*/
 	background-size: cover;
 	text-align: center;
 	color: #fff;
