@@ -32,14 +32,6 @@ a {
 	color: #333;
 }
 
-br {
-	color: #333;
-}
-
-.port {
-	color: #333;
-}
-
 h1 {
 	color: #fff;
 	font-size: 30px;
@@ -52,6 +44,10 @@ p {
 	margin-bottom: 20px;
 	font-size: 17px;
 	line-height: 2;
+}
+
+.copyright {
+	color: #8f8f8f;
 }
 
 .nav-row {
@@ -109,6 +105,7 @@ p {
 .homepage {
 	background: #333;
 	font-family: "Oswald", "Helvetica", "Arial", "Verdana", sans-serif;
+	text-decoration: none;
 	color: #DEDEDE;
   	font-weight: 300;
   	-webkit-font-smoothing: antialiased;
@@ -245,7 +242,6 @@ nav ul li {
 		bottom: 0;
 		z-index: -100;
 	}
-
 }
 
 @media only screen and (min-width: 20.938em) {
@@ -550,9 +546,9 @@ section {
 /*END ICONS*/
 
 /*FOOTER*/
+
 .content {
-	width: 850px; 
-	margin: auto;
+	width: 100%; 
 	margin-bottom: 200px; /* Needs to be the same height as the footer to work */
 	padding: 100px 0;
 }
@@ -565,13 +561,6 @@ section {
 	left: 0; 
 	bottom: 0;
 	z-index: -100;
-}
-
-.fixed-footer p {
-	width: 100%;
-	margin: 0 auto;
-	margin-top: -100px;
-	text-align: center;
 }
 /*END FOOTER*/
 
@@ -657,25 +646,54 @@ section {
 }
 /*END SOCIAL MEDIA BUTTONS*/
 
-/*WORK*/
-.work {
-	position: relative;
+/*START PORTFOLIO BUTTON*/
+section.container {
+	min-width: 500px;
+    margin: 10% auto;
+    text-align: center;
 }
 
-.work-img {
-	width: 100%;
-	position: relative;
-	margin: 0;
+a:hover {
+	border-bottom: 1px solid #111;
+} 
+
+button:hover {
+	cursor: pointer
 }
 
-.work-caption {
-	bottom: 0;
-	padding: 0.843rem 0.8rem;
-	position: absolute;
-
-	background-color: none;
-
-	color: #333;
-	font-family: "Oswald", "Helvetica", "Arial", "Verdana", sans-serif;
+button {
+	background: transparent; outline: none;
+    position: relative;
+    border: 2px solid #8f8f8f;
+    padding: 15px 50px;
+    overflow: hidden;
 }
-/*END WORK*/
+
+/*button:before (attr data-hover)*/
+button:hover:before{opacity: 1; transform: translate(0,0);}
+button:before{
+   	content: attr(data-hover);
+  	position: absolute;
+  	top: 1.4em; left: 0;
+    width: 100%;
+   	text-transform: uppercase;
+   	letter-spacing: 3px;
+   	color: white;
+  	font-weight: 800;
+  	opacity: 0;
+  	transform: translate(-100%,0);
+  	transition: all .3s ease-in-out;
+}
+      
+/*button div (button text before hover)*/
+button:hover div {
+	opacity: 0; transform: translate(100%,0);
+}
+
+button div {
+	color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: 800;
+    transition: all .3s ease-in-out;
+}
